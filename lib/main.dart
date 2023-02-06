@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         const Text(
-                          "Hey, Selena",
+                          "Hey, Jake",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 28,
@@ -118,6 +118,7 @@ class MyApp extends StatelessWidget {
                   amount: '6 428',
                   icon: Icons.euro_rounded,
                   isInverted: false,
+                  index: 0,
                 ),
                 Transform.translate(
                   offset: const Offset(0, -20),
@@ -127,6 +128,7 @@ class MyApp extends StatelessWidget {
                     amount: '1 428',
                     icon: Icons.currency_bitcoin_rounded,
                     isInverted: true,
+                    index: 1,
                   ),
                 ),
                 Transform.translate(
@@ -137,6 +139,7 @@ class MyApp extends StatelessWidget {
                     amount: '9 991',
                     icon: Icons.attach_money_rounded,
                     isInverted: false,
+                    index: 2,
                   ),
                 ),
               ],
